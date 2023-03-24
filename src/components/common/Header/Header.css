@@ -1,0 +1,66 @@
+
+
+
+
+
+
+li > a {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  
+  a:link, a:visited, a:active {
+      text-decoration:none;
+      
+  }
+  
+  
+  
+  
+  
+  .logo{
+    width: 30%;
+    height: 90px;
+    display: inline-block;
+   
+    text-align: center;
+  }
+  
+  nav {
+    width: 60%;
+    height: 100px;
+    
+    vertical-align: middle;
+  }
+  
+  
+  
+  nav, ul, li{
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  li{
+    padding-left: 20px;
+  }
+  
+  a:hover{
+    color: yellow;
+  }
+  
+  
+  
+  .ancho{
+     width: 80%;
+    height: 90px;
+    margin: auto;
+    
+    
+  } 
+  header{
+    width: 100%;
+    background-color: #ffffff;
+  height: 90px;
+  
+   }

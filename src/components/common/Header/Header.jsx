@@ -9,7 +9,7 @@ return(
 <header class="encabezado">
           <div class="ancho">
             <div class="logo">
-                 <p><a href='#'> <img class="logo" src={logo}></img> </a></p> 
+                 <a href='#'> <img class="logo" src={logo}></img> </a>
               </div>
               <nav>
                 <ul>

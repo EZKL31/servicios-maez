@@ -2,6 +2,7 @@
 import './App.css';
 import  {Header } from './components/common'
 import servicio from './imagenes/soldadura.jpg';
+import icon from './imagenes/confiar.png';
 
 
 
@@ -30,8 +31,8 @@ function App() {
                 </div>
             </div>
           </div>
-          <section>
-            <h2>Nuestros Servicios</h2>
+          <section class="our-services">
+            <h2 class="services-tittle">Nuestros <u>Servicios</u></h2>
             <div class="servcontainer">
               <div class="servicios">
                  <div class="content">
@@ -76,18 +77,13 @@ function App() {
               </div>
             </div>
           </section>
-
-        </div>
-
-
-
-
-
-        <footer>
+        
+          
+          <footer>
           <div class="footer-primerafila">
               <div class="footer-cuadro-icono">
                 <div class="footer-icono">
-                  
+                <img src={icon}></img>
                 </div>
                 <div class="footer-cuadro-texto">
                   <div class="footer-titulo">
@@ -100,6 +96,7 @@ function App() {
               </div>
               <div class="footer-cuadro-icono">
                 <div class="footer-icono">
+                    <img src={icon}></img>
                 </div>
                 <div class="footer-cuadro-texto">
                   <div class="footer-titulo">
@@ -112,6 +109,7 @@ function App() {
               </div>
               <div class="footer-cuadro-icono">
                 <div class="footer-icono">
+                <img src={icon}></img>
                 </div>
                 <div class="footer-cuadro-texto">
                   <div class="footer-titulo">
@@ -124,6 +122,7 @@ function App() {
               </div>
               <div class="footer-cuadro-icono">
                 <div class="footer-icono">
+                <img src={icon}></img>
                 </div>
                 <div class="footer-cuadro-texto">
                   <div class="footer-titulo">
@@ -191,17 +190,38 @@ function App() {
           </div>
           <div class= "footer-tercerafila">
               <div class="footer-about">
-
+              ©2023 Servicios-Maez |  Sitio creado por Ezequiel Amaya.
               </div>
               <div class="footer-about-espacio">
                   
               </div>
               <div class="footer-redes">
-                  
+              <img src={icon}></img>
+              <img src={icon}></img>
+              <img src={icon}></img>
               </div>
               
           </div>   
         </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+        
       </body>
     </html>
   );

@@ -45,7 +45,19 @@ body{
   
 }
 
+.services-tittle > u{
+  color: darkorange;
+  text-decoration: none;
+}
 
+.services-tittle{
+
+  font-size: 60px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
 
 .banner h1{
   font-size: 50px;
@@ -74,9 +86,9 @@ body{
 
  .banner{
   position: relative;
-  height: 600px;
+  height: 300px;
   width: 100%;
-  background-image: url(../src/imagenes/banner.jpg);
+  background-image: url(../src/imagenes/White\ Minimal\ Construction\ Company\ Banner.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -89,7 +101,7 @@ body{
   
   top: 0;
   left: 0;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.152);
 
  }
 
@@ -104,6 +116,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  display: none;
 
  }
 
@@ -152,16 +165,19 @@ body{
  }
 
  
-
+.our-services{
+  margin-bottom: 300px;
+}
 
  /*footer*/
 
+ 
 
 
  footer{
   
   margin-top: auto;
-  background-color: rgb(227, 54, 54);
+  background-color: rgb(16, 16, 16);
   
 
   
@@ -173,29 +189,50 @@ body{
  .footer-primerafila{
 display: flex;
 justify-content: space-evenly;
+border-bottom: solid 1px #8686866f;
+height: 100px;
+
  }
 
 
  .footer-cuadro-icono{
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: auto;
+  margin-top: auto;
+  border-right: solid 1px #8686866f;
+  padding-right: 15px;
+
  }
 
- .footer-icono{
-color: #fff;
+ .footer-icono {
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+
+ .footer-icono > img{
+  
+height: 60px;
  }
 
  .footer-cuadro-texto{
 color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  .footer-titulo{
 color: #fff;
-
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  .footer-texto{
 color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  /*segunda linea del footer*/
@@ -203,33 +240,46 @@ color: #fff;
  .footer-segundafila{
   display: flex;
   justify-content: space-evenly;
+  height: 160px;
  }
 
  .segundafila-titulo{
 color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  .segundafila-cuadro{
 color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  .segundafila-texto{
 color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
  }
 
  .footer-contacto{
   color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
 
  }
  
 
  .icono-footer-contacto{
    color: #fff;
+   margin-bottom: auto;
+  margin-top: auto;
 
  }
 
 .texto-footer-contacto{
   color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
 
  }
 
@@ -240,13 +290,31 @@ color: #fff;
  .footer-tercerafila{
 display: flex;
 justify-content: space-evenly;
+height: 60px;
+
  }
 
  .footer-about-espacio{
-  color: #fff;
- }
-
- .footer-redes{
-color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
 
  }
+
+ .footer-about{
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+ .footer-redes {
+height: 40px;
+margin-bottom: auto;
+margin-top: auto;
+display: flex;
+  justify-content: space-evenly;
+
+ }
+
+.footer-redes > img{
+  height: 40px;
+}

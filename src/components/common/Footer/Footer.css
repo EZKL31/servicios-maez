@@ -1,0 +1,334 @@
+/*footer*/
+
+ 
+/*
+
+footer{
+  
+    margin-top: auto;
+    background-color: rgb(16, 16, 16);
+    
+  
+    
+    color: #fff;
+    
+   }
+  
+   
+   .footer-primerafila{
+  display: flex;
+  border-bottom: solid 1px #8686866f;
+  height: 100px;
+  
+   }
+  
+  .primerafila-contenedor{
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+  }
+  
+  
+   .footer-cuadro-icono{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: auto;
+    margin-top: auto;
+    border-right: solid 1px #8686866f;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 25%;
+    
+   }
+  
+   .footer-icono {
+    margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+  
+  
+   .footer-icono > img{
+    margin-right: 8px;
+  height: 50px;
+   }
+  
+   #ultimo-icono{
+    border-right: none;
+   }
+  
+   .footer-cuadro-texto{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+  
+   .footer-titulo{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+  
+   .footer-texto{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+ 
+  
+   .footer-segundafila{
+    display: flex;
+    justify-content: space-evenly;
+    height: 160px;
+   }
+  
+   .segundafila-titulo{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+  
+   .segundafila-cuadro{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+  
+   .segundafila-texto{
+  color: #fff;
+  margin-bottom: auto;
+    margin-top: auto;
+   }
+  
+   .footer-contacto{
+    color: #fff;
+    margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+   
+  
+   .icono-footer-contacto{
+     color: #fff;
+     margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+  
+  .texto-footer-contacto{
+    color: #fff;
+    margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+  
+  
+  
+  
+   
+   .footer-tercerafila{
+  display: flex;
+  justify-content: space-evenly;
+  height: 60px;
+  
+   }
+  
+   .footer-about-espacio{
+    margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+  
+   .footer-about{
+    margin-bottom: auto;
+    margin-top: auto;
+  
+   }
+  
+   .footer-redes {
+  height: 40px;
+  margin-bottom: auto;
+  margin-top: auto;
+  display: flex;
+    justify-content: space-evenly;
+  
+   }
+  
+  .footer-redes > img{
+    height: 35px;
+    margin-right: 10px;
+  }
+*/
+
+
+
+
+
+  /* ********* */
+
+
+  /*footer*/
+
+ 
+
+
+footer{
+  
+  margin-top: auto;
+  background-color: rgb(16, 16, 16);
+  
+
+  
+  color: #fff;
+  
+ }
+
+ /*primera linea del footer*/
+ .footer-primerafila{
+display: flex;
+border-bottom: solid 1px #8686866f;
+height: 100px;
+
+ }
+
+.primerafila-contenedor{
+  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+
+ .footer-cuadro-icono{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: auto;
+  margin-top: auto;
+  border-right: solid 1px #8686866f;
+  padding-right: 5px;
+  padding-left: 5px;
+  width: 50%;
+  
+ }
+
+ .footer-icono {
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+
+ .footer-icono > img{
+  margin-right: 8px;
+height: 50px;
+ }
+
+ #ultimo-icono{
+  border-right: none;
+ }
+
+ .footer-cuadro-texto{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .footer-titulo{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .footer-texto{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ /*segunda linea del footer*/
+
+ .footer-segundafila{
+  display: flex;
+  justify-content: space-evenly;
+  height: 160px;
+ }
+
+ .segundafila-titulo{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .segundafila-cuadro{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .segundafila-texto{
+color: #fff;
+margin-bottom: auto;
+  margin-top: auto;
+ }
+
+ .footer-contacto{
+  color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+ 
+
+ .icono-footer-contacto{
+   color: #fff;
+   margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+.texto-footer-contacto{
+  color: #fff;
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+
+
+
+ /*  tercera linea del footer */
+ .footer-tercerafila{
+display: flex;
+justify-content: space-evenly;
+height: 60px;
+
+ }
+
+ .footer-about-espacio{
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+ .footer-about{
+  margin-bottom: auto;
+  margin-top: auto;
+
+ }
+
+ .footer-redes {
+height: 40px;
+margin-bottom: auto;
+margin-top: auto;
+display: flex;
+  justify-content: space-evenly;
+
+ }
+
+.footer-redes > img{
+  height: 35px;
+  margin-right: 10px;
+}

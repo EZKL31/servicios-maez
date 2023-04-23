@@ -2,9 +2,8 @@
 import './App.css';
 import  {Header } from './components/common'
 import servicio from './imagenes/soldadura.jpg';
-import icon from './imagenes/confiar.png';
-
-
+import {Footer} from './components/common'
+import aboutus from  './imagenes/maezmain.jpeg';
 
 function App() {
 
@@ -19,6 +18,8 @@ function App() {
        
         <div id="root">
          < Header/>
+         
+         <div class="inicio">
           <div class="banner">
             <div class="capa">
               <div class="contenido">
@@ -77,151 +78,123 @@ function App() {
               </div>
             </div>
           </section>
-        
+          </div>
+            
           
-          <footer>
-          <div class="footer-primerafila">
-              <div class="footer-cuadro-icono">
-                <div class="footer-icono">
-                <img src={icon}></img>
-                </div>
-                <div class="footer-cuadro-texto">
-                  <div class="footer-titulo">
-                    <h5>asesoria</h5>
-                  </div>
-                  <div class="footer-texto">
-                    <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-cuadro-icono">
-                <div class="footer-icono">
-                    <img src={icon}></img>
-                </div>
-                <div class="footer-cuadro-texto">
-                  <div class="footer-titulo">
-                    <h5>asesoria</h5>
-                  </div>
-                  <div class="footer-texto">
-                    <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-cuadro-icono">
-                <div class="footer-icono">
-                <img src={icon}></img>
-                </div>
-                <div class="footer-cuadro-texto">
-                  <div class="footer-titulo">
-                    <h5>asesoria</h5>
-                  </div>
-                  <div class="footer-texto">
-                    <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-              </div>
-              <div class="footer-cuadro-icono">
-                <div class="footer-icono">
-                <img src={icon}></img>
-                </div>
-                <div class="footer-cuadro-texto">
-                  <div class="footer-titulo">
-                    <h5>asesoria</h5>
-                  </div>
-                  <div class="footer-texto">
-                    <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-              </div>
-          </div>
 
-          <div class="footer-segundafila">
-              <div class="segundafila-cuadro">
-                <div class="segundafila-titulo">
-                  <h5>asesoria</h5>
-                </div>
-                <div class="segundafila-texto">
-                <p>brindamos asesoria profecional</p>
-                </div>
-              </div>
-              <div class="segundafila-cuadro">
-                <div class="segundafila-titulo">
-                  <h5>asesoria</h5>
-                </div>
-                <div class="segundafila-texto">
-                <p>brindamos asesoria profecional</p>
-                </div>
-              </div>
-              <div class="segundafila-cuadro">
-                <div class="segundafila-titulo">
-                <h5>asesoria</h5>
-                </div>
-                <div class="segundafila-texto">
-                <p>brindamos asesoria profecional</p>
-                </div>  
-              </div>
-              <div class="segundafila-cuadro">
-                <div class="footer-contacto">
-                  <div class="icono-footer-contacto">
-                  
-                  </div>
-                  <div class="texto-footer-contacto">
-                  <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-                <div class="footer-contacto">
-                  <div class="icono-footer-contacto">
-                  
-                  </div>
-                  <div class="texto-footer-contacto">
-                  <p>brindamos asesoria profecional</p>
-                  </div>
-                </div>
-                <div class="footer-contacto">
-                  <div class="icono-footer-contacto">
-                  
-                  </div>
-                  <div class="texto-footer-contacto">
-                  <p>brindamos asesoria profecional</p>
-                  </div>
-                  
-                </div>   
-              </div>
-          </div>
-          <div class= "footer-tercerafila">
-              <div class="footer-about">
-              ©2023 Servicios-Maez |  Sitio creado por Ezequiel Amaya.
-              </div>
-              <div class="footer-about-espacio">
-                  
-              </div>
-              <div class="footer-redes">
-              <img src={icon}></img>
-              <img src={icon}></img>
-              <img src={icon}></img>
-              </div>
-              
-          </div>   
-        </footer>
+
+  
 
 
 
+  <div class="cnt">
+    <div class="card">
 
+      <div class="card__info">
+        <h1 class="card__info__title">Quienes <span>somos?</span> </h1>
+        <p class="aboutus_p" >Somos una empresa familiar, dispuestos a hacer de todo para que sus sueños de construcción o remodelación se hagan realidad.</p>
 
-
-
-
-
-
-
-
+        <div class="card__metrics">
+          <ul class="card__metrics__list">
+            <li class="list__items">
+              <p class="aboutus_p">Servicio</p>
+              <small>brindamos servicios personalisados</small>
+            </li>
+            <li class="list__items">
+              <p class="aboutus_p" >Calidad</p>
+              <small>logramos los mejores resultados</small>
+            </li>
+            <li class="list__items">
+            
+              <p class="aboutus_p">Seguridad</p>
+              <small>la mayor seguridad a nuestros clientes</small>
+            </li>
+          </ul>
         </div>
 
+      </div>
+
+      <div class="card__img">
+        <div class="card-opacity"></div>
+        <img class="quienes_somos_img" src={aboutus}></img>
+      </div>
+
+    </div>
+
+  </div>
 
 
 
 
-        
+
+  <div class="contactanos">
+    <div class="formulario">
+        <div class="titulo">
+           <h1>¡¿Que esperas para contactarnos?!</h1>
+           <p>Brindamos servicios multiples es Panama</p>
+        </div>
+        <div class="campos">
+                <form method='POST'>
+                <div class="form-group">
+                  <p class="group-title">Nombre del contacto</p>
+                  <div class="form-inputs-dobles" >
+                  <div class="input-doble">
+                  <input type="text" class="form-control" name='nombre' id="nombre"/>
+                  <br></br>
+                  <label for="nombre">Nombre</label>
+                  </div>
+                  <div class="input-doble">
+                  <input type="text" class="form-control" name='apellido' id="nombre"/><br></br>
+                  <label for="apellido">Apellido</label>
+                  </div>
+                 </div>
+                </div>
+                <div class="form-group">
+                <p class="group-title">Numero de telefono</p>
+                  <div class="form-inputs">
+                  <input type="tel" class="form-control" name='telefono' id="telefono" />
+                   <br></br>
+                  <label for="numero">introduce tu numero telefonico</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                <p class="group-title">Correo</p>
+                <div class="form-inputs">
+                <input type="email" class="form-control" name='email' id="email" /><br></br>
+                  <label for="email">ejemplo@ejemplo.com</label>
+                  
+                  </div>
+                </div>
+                <div class="form-group">
+                <p class="group-title">Mensaje </p>
+                <div class="form-input-text">
+                  <label for="exampleTextarea">Dejanos un mensaje para que podamos ayudarle!</label>
+                  <br></br>
+                  <textarea class="form-control" name='mensaje' id="mensaje" rows="3"></textarea>
+                </div>
+                </div>
+                <div class="btn-enviar">
+                <button class="btn-primary" type="submit">Enviar</button>
+                </div>
+              </form>
+   
+        </div>
+
+    </div>
+
+
+  </div>
+
+
+
+
+
+
+
+
+          
+        <Footer/>
+       </div>
       </body>
     </html>
   );

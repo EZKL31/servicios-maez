@@ -1,7 +1,7 @@
 
 import  './Footer.css'
 /* footer */
-
+import whatsapp from '../../../imagenes/logotipo-de-instagram.png';
 import instagram  from '../../../imagenes/logotipo-de-instagram.png';
 import Facebook  from '../../../imagenes/facebookwhite.png';
 import personalizado from '../../../imagenes/serviciopersonal.png';
@@ -39,10 +39,10 @@ return(
                   </div>
                   <div class="footer-cuadro-texto">
                     <div class="footer-titulo">
-                      <h5>Servicio personalizado:</h5>
+                      <h5>Personalizado:</h5>
                     </div>
                     <div class="footer-texto">
-                      <p>Colocamos sus intereses como nuestra prioridad</p>
+                      <p>Sus intereses son nuestra prioridad</p>
                     </div>
                   </div>
                 </div>
@@ -79,8 +79,13 @@ return(
               </div>
 
           </div>
-
+           </div>
           <div class="footer-segundafila">
+          
+           <div class="segundafila-contenedor"> 
+              
+              
+              
               <div class="segundafila-cuadro">
                 <div class="segundafila-titulo">
                   <h5>Remodelacion</h5>
@@ -91,6 +96,9 @@ return(
                 <p>Puertas y ventanas de vidrio</p>
                 </div>
               </div>
+
+
+
               <div class="segundafila-cuadro">
                 <div class="segundafila-titulo">
                   <h5>Albañileria</h5>
@@ -101,6 +109,9 @@ return(
                 <p>Pisos.</p>
                 </div>
               </div>
+
+
+
               <div class="segundafila-cuadro">
                 <div class="segundafila-titulo">
                 <h5>Electricos</h5>
@@ -119,7 +130,7 @@ return(
                 </div>
                 <div class="footer-contacto">
                   <div class="icono-footer-contacto">
-                  
+                     <p>asdad</p>
                   </div>
                   <div class="texto-footer-contacto">
                   <p>Maez.serviciosmultiples@gmail.com</p>
@@ -127,14 +138,16 @@ return(
                 </div>
                 <div class="footer-contacto">
                   <div class="icono-footer-contacto">
-                  
+          
                   </div>
                   <div class="texto-footer-contacto">
                   <p>+507 6394-7277</p>
                   </div>
                 </div>
-                  
+                </div> 
               </div>
+
+
           </div>
           <div class= "footer-tercerafila">
               <div class="footer-about">
@@ -145,11 +158,16 @@ return(
               </div>
               <div class="footer-redes">
               
-              <img src={Facebook}></img>
-              <img src={instagram}></img>
+              <a href="https://api.whatsapp.com/send?phone=50769592149" target='blank'><img src={Facebook} alt='whatsapp'></img></a>
+              <a href="https://www.instagram.com/maezserviciosmultiples/" target='blank'><img src={instagram}></img></a>
+              
               </div>
               
-          </div>   
+          </div>  
+          <div class= "stick-n-bot">
+                <a> <img src="" alt="" /> </a>
+          </div>
+
         </footer>)
     
 }

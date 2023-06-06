@@ -134,7 +134,7 @@ function App() {
            <p>Brindamos servicios multiples es Panama</p>
         </div>
         <div class="campos">
-                <form method='POST'>
+                <form action="https://formsubmit.co/fb1c6513474632c69f6b316c9ec25b1d" method="POST">
                 <div class="form-group">
                   <p class="group-title">Nombre del contacto</p>
                   <div class="form-inputs-dobles" >
@@ -181,7 +181,9 @@ function App() {
         </div>
 
     </div>
-
+    <script>
+      
+    </script>
 
   </div>
 
@@ -198,6 +200,11 @@ function App() {
       </body>
     </html>
   );
+ 
 }
+
+
+
+
 
 export default App;
